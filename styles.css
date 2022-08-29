@@ -3,3 +3,8 @@
 body {
     font-family: 'Noto Sans', sans-serif;
 }
+
+.container{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
