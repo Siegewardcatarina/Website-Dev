@@ -29,14 +29,13 @@ body {
 /* Link */
 .link{
     padding: 0.5rem 1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     text-decoration: none;
 }
 
 .primary-link {
     color: white;
     background-color: #6d28d9;
-    margin: 1rem;
     border-color: black;
     border: 1px solid #6d28d9
 }
