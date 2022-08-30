@@ -1,10 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;700&display=swap');
 
+:root {
+    --primary-color: red;
+}
+/**Body*/
 body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+
+/** Containers**/
 .container{
     padding-left: 5rem;
     padding-right: 5rem;
+}
+
+.container-fluid {
+    color:red;
+    margin: auto;
+}
+
+.container-center {
+    color:blue;
+    max-width: 500px;
+    margin:auto;
+}
+
+/* Link */
+.link{
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.primary-link {
+    color: white;
+    background-color: #6d28d9;
+    margin: 1rem;
+    border-color: black;
+    border: 1px solid #6d28d9
+}
+
+.secondary-link {
+    color: #6d28d9;
+    background-color: white ;
+    margin:1rem;
+    border:1px solid #6d28d9 ;
+    
 }
