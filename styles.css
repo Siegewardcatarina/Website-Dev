@@ -8,6 +8,9 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+hr {
+    margin:2rem;
+}
 
 /** Containers**/
 .container{
