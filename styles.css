@@ -2,36 +2,40 @@
 
 :root {
     --primary-color: red;
-    --secondary-color : #15803d;
+    --secondary-color: #15803d;
 }
+
+
 /**Body*/
 body {
     font-family: 'Noto Sans', sans-serif;
 }
 
 hr {
-    margin:2rem;
+    margin: 2rem;
 }
 
+
 /** Containers**/
-.container{
+.container {
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
 .container-fluid {
-    color:red;
+    color: red;
     margin: auto;
 }
 
 .container-center {
-    color:blue;
+    color: blue;
     max-width: 500px;
-    margin:auto;
+    margin: auto;
 }
 
+
 /* Link */
-.link{
+.link {
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     text-decoration: none;
@@ -46,11 +50,12 @@ hr {
 
 .secondary-link {
     color: #6d28d9;
-    background-color: white ;
-    margin:1rem;
-    border:1px solid #6d28d9 ;
-    
+    background-color: white;
+    margin: 1rem;
+    border: 1px solid #6d28d9;
+
 }
+
 
 /* Lists */
 .list-non-bullet {
@@ -61,8 +66,9 @@ hr {
     display: inline;
     margin: 0.1rem;
     padding: 0rem 0.5rem;
-    text-align: right;    
+    text-align: right;
 }
+
 
 /* Navigation */
 .navigation-brand {
@@ -71,13 +77,13 @@ hr {
 
 .navigation-container {
     background-color: #6d28d9;
-    color:white;
+    color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
-.navigation-pills{
+.navigation-pills {
     text-align: right;
 }
 
@@ -88,6 +94,7 @@ hr {
 .navigation-container .link-active {
     font-weight: bold;
 }
+
 
 /* Header */
 .header {
@@ -102,5 +109,8 @@ hr {
 }
 
 .header .header-focus {
-    color : var(--secondary-color);
+    color: var(--secondary-color);
 }
+
+
+/* Section */
