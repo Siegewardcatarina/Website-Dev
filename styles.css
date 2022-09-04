@@ -3,6 +3,7 @@
 :root {
     --primary-color: red;
     --secondary-color: #15803d;
+    --tertiary-color: #e2e8f0;
 }
 
 
@@ -114,3 +115,12 @@ hr {
 
 
 /* Section */
+.section-center h3,
+p {
+    text-align: center;
+    padding: 1rem, 1rem;
+}
+
+.section-off-white {
+    background-color: var(--tertiary-color);
+}
