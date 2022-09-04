@@ -60,6 +60,30 @@ hr {
     display: inline;
     margin: 0.1rem;
     padding: 0rem 0.5rem;
-    border: 1px solid black;
-    border-radius: 0.5rem;
+    text-align: right;    
+}
+
+/* Navigation */
+.navigation-brand {
+    font-weight: bold;
+}
+
+.navigation-container {
+    background-color: #6d28d9;
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.navigation-pills{
+    text-align: right;
+}
+
+.navigation-container .link {
+    color: white;
+}
+
+.navigation-container .link-active {
+    font-weight: bold;
 }
