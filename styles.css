@@ -58,6 +58,7 @@ hr {
 
 .list-inline {
     display: inline;
+    margin: 0.1rem;
     padding: 0rem 0.5rem;
     border: 1px solid black;
     border-radius: 0.5rem;
