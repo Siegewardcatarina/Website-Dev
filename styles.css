@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: red;
+    --secondary-color : #15803d;
 }
 /**Body*/
 body {
@@ -86,4 +87,20 @@ hr {
 
 .navigation-container .link-active {
     font-weight: bold;
+}
+
+/* Header */
+.header {
+    font-size: bold;
+    padding: 2rem;
+}
+
+.header .header-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.header .header-focus {
+    color : var(--secondary-color);
 }
