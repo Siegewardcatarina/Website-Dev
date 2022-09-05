@@ -4,6 +4,8 @@
     --primary-color: #60a5fa;
     --secondary-color: #15803d;
     --tertiary-color: #e2e8f0;
+    --quaternary-color:#c084fc;
+    --quinary-color: #a3a3a3;
 }
 
 
@@ -30,15 +32,17 @@ hr {
 }
 
 .container-center {
-    color: blue;
+    color: black;
     max-width: 500px;
     margin: auto;
+    font-size: large;
+    padding:1rem;
 }
 
 
 /* Link */
 .link {
-    padding: 0rem 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     text-decoration: none;
 }
@@ -46,16 +50,14 @@ hr {
 .primary-link {
     color: white;
     background-color: #6d28d9;
-    border-color: black;
-    border: 1px solid #6d28d9
+    margin:1rem;
+    margin-bottom: 1rem;
 }
 
 .secondary-link {
     color: #6d28d9;
     background-color: white;
     margin: 1rem;
-    border: 1px solid #6d28d9;
-
 }
 
 
@@ -74,7 +76,7 @@ hr {
 
 /* Navigation */
 .navigation-brand {
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .navigation-container {
@@ -82,7 +84,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation-pills {
@@ -106,20 +108,21 @@ hr {
 }
 
 .header .header-img {
-    max-width: 400px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
 
 .header .header-focus {
-    color: var(--secondary-color);
+    color: var(--quaternary-color);
 }
 
 
 /* Section */
 .section-center h3,p {
     text-align: center;
-    padding: 1rem, 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
 }
 
 .section-off-white {
@@ -128,7 +131,7 @@ hr {
 
 /* Footer */
 .footer {
-    padding: 0rem 0rem;
+    padding: 2rem 0rem;
     background-color: var(--primary-color);
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -140,6 +143,13 @@ hr {
     color: white;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    padding:0.5rem;
+}
+
 .footer ul {
     padding-inline-start: 0px;
+    margin:0px;
 }
