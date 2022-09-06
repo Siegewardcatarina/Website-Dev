@@ -58,6 +58,7 @@ hr {
     color: #6d28d9;
     background-color: white;
     margin: 1rem;
+    border: 1px solid #6d28d9;
 }
 
 
@@ -123,6 +124,8 @@ hr {
     text-align: center;
     padding: 0.5rem;
     margin: 1rem;
+    text-align: center;
+    margin:auto;
 }
 
 .section-off-white {
